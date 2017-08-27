@@ -1,0 +1,45 @@
+.Header {
+  position: absolute;
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+  width: 50%;
+  height: 70%;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.Header:before, .Header:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 40px;
+}
+
+.Header:before {
+  background-color: rgba(255,0,128,0.85);
+  left: -15px;
+  top: -15px;
+  width: 140px;
+  -webkit-transform: rotate(-17deg);
+  -moz-transform: rotate(-17deg);
+  -o-transform: rotate(-17deg);
+  -ms-transform: rotate(-17deg);
+}
+
+.Header:after {
+  background-color: rgba(0,255,127,0.85);
+  right: -50px;
+  top: -15px;
+  width: 160px;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
