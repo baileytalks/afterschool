@@ -1,4 +1,4 @@
-.Header {
+.Box {
   position: absolute;
   font-family: 'Cabin Sketch', cursive;
   text-align: center;
@@ -16,14 +16,14 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 }
 
-.Header:before, .Header:after {
+.Box:before, .Box:after {
   content: '';
   display: block;
   position: absolute;
   height: 40px;
 }
 
-.Header:before {
+.Box:before {
   background-color: rgba(255,0,128,0.85);
   left: -15px;
   top: -15px;
@@ -34,7 +34,7 @@
   -ms-transform: rotate(-17deg);
 }
 
-.Header:after {
+.Box:after {
   background-color: rgba(0,255,127,0.85);
   right: -50px;
   top: -15px;
@@ -42,4 +42,10 @@
   -webkit-transform: rotate(30deg);
   -moz-transform: rotate(30deg);
   transform: rotate(30deg);
+}
+
+.Header {
+  text-align: left;
+  position: absolute;
+  margin: auto;
 }

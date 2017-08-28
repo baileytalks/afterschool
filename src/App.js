@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Header from './Header';
+import Box from './Box';
 
 const App = () => {
   return (
     <div className="App">
-      <Header/>
+      <Box/>
     </div>
   );
 };
